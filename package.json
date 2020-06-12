@@ -1,0 +1,22 @@
+{
+  "name": "puppfinal",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "functions-framework --target=sheetdjo"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.4.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "googleapis": "^47.0.0",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2"
+  }
+}

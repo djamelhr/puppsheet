@@ -1,0 +1,55 @@
+ 
+ <div class="container p-5 mt-5">
+     <div class="row d-flex justify-content-center">
+                   <div class="col-6">
+     <h4 class="mb-3 text-center"> Scraping Successfuly  </h4>
+        <p>MatchDay : {{value}}</p>
+         </div>
+      
+     </div>
+           
+              
+     <div class="row d-flex justify-content-center">
+     
+         <div class="col-2">
+<a class="btn btn-outline-info btn-block" href="http://us-central1-nodepupp.cloudfunctions.net/sheetdjo/">Back</a>
+         </div>
+          <div class="col-2">
+                <a target="blank" class="btn btn-outline-success btn-block mb-3 text-center" href="https://docs.google.com/spreadsheets/d/1O1kcu1G16R7WWa1sp0ouNwNuw8xfno2uII9Sj4L8MZc/">SheetShane</a> </div> 
+                          <div class="col-2">
+<a class="btn btn-outline-secondary btn-block" href="#">Download Excel</a>
+         </div>
+         </div>
+ 
+
+     </div>
+     <div class="row d-flex justify-content-center">
+         <div class="col-md-5">
+
+             <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td class="text-center"> Matchs</td>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <div>
+                                {{#each answer}}
+                                <tr>
+                                    <td class="text-center" style="font-size: 13px;">{{match}}</td>
+                                </tr>
+                                {{/each}}
+                            </div>
+                        </tbody>
+                    </table>
+ 
+         </div>
+
+
+     </div>
+   
+ 
+
+ </div>
+ 
