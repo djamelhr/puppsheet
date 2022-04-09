@@ -14,7 +14,7 @@
     "googleapis": "^47.0.0",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "morgan": "~1.9.1",
     "puppeteer": "^2.1.1",
     "request": "^2.88.2"
